@@ -7,9 +7,15 @@ export const routes: Routes = [
   //   path: "lines",
   //   component: LinesComponent
   // },
+  // {
+  //   path: "lines/privacy_policy",
+  //   component: PrivacyPolicyComponent
+  // },
+  // { path: '**', redirectTo: 'lines/privacy_policy' }
+
   {
-    path: "lines/privacy_policy",
+    path: "",
     component: PrivacyPolicyComponent
   },
-  { path: '**', redirectTo: 'lines/privacy_policy' }
+  { path: '**', redirectTo: '' }
 ];
