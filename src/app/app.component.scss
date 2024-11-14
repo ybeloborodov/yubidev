@@ -1,0 +1,19 @@
+@import "../../src/colors";
+
+.bg-primary {
+  background-color: $color-bluegray-300;
+}
+
+.app-icon {
+  border: 1px solid $color-gray-300;
+  border-radius: 10px;
+  width: 128px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  // font-weight: bold;
+  font-size: 14pt;
+  color: $color-bluegrey-700;
+}
